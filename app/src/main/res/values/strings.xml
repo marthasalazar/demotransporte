@@ -98,14 +98,14 @@
     <string name="action_settings">Settings</string>
     <string-array name="vehiculos_array">
         <item>Seleccione</item>
-        <item>BMW</item>
-        <item>Toyota Corolla</item>
-        <item>Mazda 3</item>
+        <item>Pick Up</item>
+        <item>Sedan</item>
+        <item>Camion</item>
     </string-array>
     <string-array name="conductores_array">
         <item>Seleccione</item>
-        <item>Lola la Trailera</item>
-        <item>Mario el chofer</item>
-        <item>Michael mi amor</item>
+        <item>Juan Martinez</item>
+        <item>Mario Perez</item>
+        <item>Michael Reynosa</item>
     </string-array>
 </resources>
