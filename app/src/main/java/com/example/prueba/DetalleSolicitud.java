@@ -16,6 +16,10 @@ public class DetalleSolicitud extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detalle_solicitud);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
+
         btnDenegar = (Button) findViewById(R.id.btnDenegar);
         btnDenegar.setOnClickListener(new View.OnClickListener() {
             @Override

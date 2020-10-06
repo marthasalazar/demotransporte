@@ -35,6 +35,7 @@ public class MensajeInfo extends AppCompatActivity implements View.OnClickListen
         imgResultado.setImageDrawable(tipo.equals(ERROR_VALUE)
                                         ? getDrawable(R.drawable.error)
                                         : getDrawable(R.drawable.check));
+
     }
 
     @Override

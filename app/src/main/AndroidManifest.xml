@@ -20,7 +20,7 @@
         </activity>
         <activity android:name=".MainActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".MensajeInfo" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".DetalleSolicitud" android:screenOrientation="portrait" ></activity>
+        <activity android:name=".DetalleSolicitud" android:screenOrientation="portrait" android:parentActivityName=".ListadoSolicitudes"></activity>
         <activity android:name=".Listado" android:screenOrientation="portrait" ></activity>
         <activity android:name=".ListadoSolicitudes" android:screenOrientation="portrait" ></activity>
     </application>

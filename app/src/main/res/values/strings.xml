@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Transporte [A]pp</string>
+    <string name="app_name">App de Transporte</string>
     <string name="nombreaplicacion">prueba</string>
     <string name="usuario">Usuario</string>
     <string name="contraseña">Contraseña</string>
@@ -97,13 +97,13 @@
     </string>
     <string name="action_settings">Settings</string>
     <string-array name="vehiculos_array">
-        <item>Seleccione</item>
+        <item>Seleccione:</item>
         <item>Pick Up</item>
         <item>Sedan</item>
         <item>Camion</item>
     </string-array>
     <string-array name="conductores_array">
-        <item>Seleccione</item>
+        <item>Seleccione:</item>
         <item>Juan Martinez</item>
         <item>Mario Perez</item>
         <item>Michael Reynosa</item>

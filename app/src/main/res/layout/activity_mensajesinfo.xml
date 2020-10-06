@@ -9,37 +9,33 @@
         android:background="@color/colorFondo">
 
     <ImageView
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        app:srcCompat="@drawable/check"
-        android:id="@+id/imgResultado"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toTopOf="@id/tvMensaje" />
-
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            app:srcCompat="@drawable/check"
+            android:id="@+id/imgResultado"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="40dp"
+            />
     <TextView
-        android:text="INGRESADO CON ÉXITO"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvMensaje"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:textSize="20sp" android:textColor="#fff" />
-
+            android:text="INGRESADO CON ÉXITO"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMensaje"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            app:layout_constraintTop_toBottomOf="@+id/imgResultado" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
     <Button
-        android:text="Aceptar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnAceptar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="15dp"
-        app:layout_constraintTop_toBottomOf="@+id/tvMensaje"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp" />
+            android:text="Aceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAceptar"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvMensaje" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
