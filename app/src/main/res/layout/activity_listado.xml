@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#313945"
-        tools:context=".listadosolicitudes" android:id="@+id/LAYOUT">
+        tools:context=".Listado" android:id="@+id/LAYOUT">
 
 
     <TextView
